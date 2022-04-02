@@ -35,7 +35,7 @@
 					<nav class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"
-									height="40" /></a>
+									alt="logo" height="40" /></a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 								data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -62,15 +62,15 @@
 
 		<main>
 
-			<section id="presentation">
+			<section id="banner">
 				<div class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper"
 					id="bloc-6">
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-12">
-								<p class="text-center hero-bloc-text tc-white">
+								<h2 class="text-center hero-bloc-text tc-white">
 									Let&rsquo;s talk web design!
-								</p>
+								</h2>
 								<p class="text-center mg-lg tc-white tight-width-whitespace">
 									I&rsquo;m super excited that you want to work together.<br>Please fill in the form
 									below
@@ -88,8 +88,10 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-6">
-								<form id="form_1" novalidate success-msg="Your message has been sent."
-									fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+ 							<!-- novalidate success-msg="Your message has been sent."
+								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" -->
+								<h2>Send me an e-mail</h2>
+								<form id="form_1" >
 									<div class="form-group">
 										<label for="name">
 											Name
@@ -97,19 +99,19 @@
 										<input id="name" class="form-control" required />
 									</div>
 									<div class="form-group">
-										<label for="e-mail">
+										<label for="email">
 											Email
 										</label>
 										<input id="email" class="form-control" type="email" required />
 									</div>
 									<div class="form-group">
-										<label for="find-me">
+										<label>
 											How did you find me?
 										</label>
 										<input class="form-control" type="email" required id="input_504" />
 									</div>
 									<div class="form-group">
-										<label for="project-details">
+										<label>
 											Project brief (Please be as detailed as possible including your company
 											goals
 											and any improvements you&rsquo;d like to have over your current website)<br>
@@ -135,10 +137,10 @@
 				</div>
 			</section>
 
-			<details>
+			<div>
 				<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
 						class="fa fa-chevron-up"></span></a>
-			</details>
+			</div>
 		</main>
 
 		<footer>
