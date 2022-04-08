@@ -14,8 +14,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
@@ -88,15 +88,14 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div role="form " class="col-sm-6">
-								<!-- novalidate success-msg="Your message has been sent."
-								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" -->
+								<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<h2>Send me an e-mail</h2>
 								<form id="form_1">
 									<div class="form-group">
 										<label for="name">
 											Name
 										</label>
-										<input id="name" class="form-control" required />
+										<input id="name" class="form-control" type="text" required />
 									</div>
 									<div class="form-group">
 										<label for="email">
@@ -105,13 +104,13 @@
 										<input id="email" class="form-control" type="email" required />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="find">
 											How did you find me?
 										</label>
 										<input class="form-control" type="text" required id="input_504" />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="brief">
 											Project brief (Please be as detailed as possible including your company
 											goals
 											and any improvements you&rsquo;d like to have over your current website)<br>
@@ -190,7 +189,7 @@
 
 
 	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js"></script>
 	<script src="./js/gmaps.js"></script>
