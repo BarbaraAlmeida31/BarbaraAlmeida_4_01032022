@@ -364,6 +364,24 @@ a:hover {
     z-index: 2;
 }
 
+.logo {
+    width: 215px;
+    height: auto;
+
+}
+
+.avatar {
+    width: 100px;
+    height: auto;
+
+}
+
+.portolio-img {
+    width: 350px;
+    height: auto;
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
