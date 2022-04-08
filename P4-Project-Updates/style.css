@@ -16,6 +16,8 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #364577 !important;
+    font-size: 18px;
 }
 
 #page-loading-blocs-notifaction {
@@ -284,7 +286,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .navbar {
@@ -451,6 +453,10 @@ nav .caret {
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
+}
+
+.contact-info {
+    margin: 50px 0 0 1px;
 }
 
 .btn-d,
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +711,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -781,7 +787,8 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #FFFFFF !important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
@@ -829,6 +836,10 @@ h4 {
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+}
+
+.fa {
+    padding-top: 20px;
 }
 
 @media (max-width: 1024px) {
